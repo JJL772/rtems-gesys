@@ -361,6 +361,7 @@ case "$rtems_bsp" in
 		RTEMS_CEXP_TEXT_REGION_SIZE=0x01000000
 	;;
 	*)
+		RTEMS_CEXP_TEXT_REGION_SIZE=0x0
 	;;
 esac
 case "$target_cpu" in
